@@ -1,14 +1,16 @@
 class MultipleFunctions:
     def subfields(self):
-        message = (
-            "Sub-fields in AI are:\n"
-            "Machine Learning\n"
-            "Neural Networks\n"
-            "Vision\n"
-            "Robotics\n"
-            "Speech Processing\n"
+        subfields_list = [
+            "Machine Learning",
+            "Neural Networks",
+            "Vision",
+            "Robotics",
+            "Speech Processing",
             "Natural Language Processing"
-        )
+        ]
+        message = "Sub-fields in AI are:\n"
+        for subfield in subfields_list:
+            message += f"{subfield}\n"
         return message
 
     def OddEven(self):
